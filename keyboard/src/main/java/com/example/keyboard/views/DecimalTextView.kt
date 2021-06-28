@@ -16,8 +16,7 @@ class DecimalTextView : AppCompatTextView {
 
     var enteredNumber: String = DEFAULT_AMOUNT
         private set
-    var currency: String? = DEFAULT_CURRENCY
-        private set
+    private var currency: String? = DEFAULT_CURRENCY
     private var amountDimmingColor: Int =
         ContextCompat.getColor(context, DEFAULT_AMOUNT_DIMMING_COLOR)
     private var amountHighlightColor: Int =
@@ -109,7 +108,7 @@ class DecimalTextView : AppCompatTextView {
     }
 
 
-    private fun clearText() {
+    fun clearText() {
         text = ""
     }
 
