@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberKeyboardView">
+        <attr name="decimalTextViewId" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="DecimalTextView">
+        <attr name="currency" format="string" localization="suggested" />
+        <attr name="amountDimmingColor" format="color"/>
+        <attr name="amountHighlightColor" format="color"/>
+        <attr name="maxDecimalDigit" format="integer"/>
+        <attr name="maxInputLength" format="integer"/>
+    </declare-styleable>
+</resources>

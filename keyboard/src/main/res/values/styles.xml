@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="keyboard_button_style" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@drawable/keyboard_button_text_selector</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="iconPadding">0dp</item>
+        <item name="iconTintMode">multiply</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconSize">30dp</item>
+        <item name="layout_constraintDimensionRatio">1:1</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/keyboard_button_selector</item>
+    </style>
+
+    <style name="DecimalTextViewDefaultStyle">
+        <item name="amountDimmingColor">@color/colorGray</item>
+        <item name="amountHighlightColor">@color/colorBlack</item>
+        <item name="maxDecimalDigit">1</item>
+    </style>
+</resources>
